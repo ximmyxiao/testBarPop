@@ -13,6 +13,7 @@
 		993F7F171E9B89D00087C153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993F7F151E9B89D00087C153 /* Main.storyboard */; };
 		993F7F191E9B89D00087C153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993F7F181E9B89D00087C153 /* Assets.xcassets */; };
 		993F7F1C1E9B89D00087C153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993F7F1A1E9B89D00087C153 /* LaunchScreen.storyboard */; };
+		993F7F251E9B89E40087C153 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 993F7F241E9B89E40087C153 /* SubViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		993F7F181E9B89D00087C153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		993F7F1B1E9B89D00087C153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		993F7F1D1E9B89D00087C153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		993F7F231E9B89E40087C153 /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		993F7F241E9B89E40087C153 /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				993F7F1A1E9B89D00087C153 /* LaunchScreen.storyboard */,
 				993F7F1D1E9B89D00087C153 /* Info.plist */,
 				993F7F0C1E9B89D00087C153 /* Supporting Files */,
+				993F7F231E9B89E40087C153 /* SubViewController.h */,
+				993F7F241E9B89E40087C153 /* SubViewController.m */,
 			);
 			path = testBarPop;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				993F7F141E9B89D00087C153 /* ViewController.m in Sources */,
 				993F7F111E9B89D00087C153 /* AppDelegate.m in Sources */,
 				993F7F0E1E9B89D00087C153 /* main.m in Sources */,
+				993F7F251E9B89E40087C153 /* SubViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
